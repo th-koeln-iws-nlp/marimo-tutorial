@@ -27,16 +27,7 @@ def _():
     _path = kagglehub.dataset_download(
         "parulpandey/palmer-archipelago-antarctica-penguin-data"
     )
-    penguins = (
-        pd.read_csv(Path(_path) / "penguins_size.csv")
-        .dropna()
-        .rename(
-            columns={
-                "culmen_length_mm": "bill_length_mm",
-                "culmen_depth_mm": "bill_depth_mm",
-            }
-        )
-    )
+    penguins = pd.read_csv(Path(_path) / "penguins_size.csv").dropna()
     return penguins, plt, px
 
 
@@ -135,7 +126,7 @@ def _(penguins, px):
         x="flipper_length_mm",
         y="body_mass_g",
         color="species",
-        hover_data=["bill_length_mm", "island"],
+        hover_data=["culmen_length_mm", "island"],
         title="Penguins — hover for details",
     )
     fig_plotly

@@ -112,11 +112,11 @@ def _(mo):
     marimo notebooks are plain Python files:
 
     ```bash
-    marimo edit   01_intro_reactivity.py          # interactive editor
-    marimo run    01_intro_reactivity.py          # read-only app
-    python        01_intro_reactivity.py          # plain script (n=slider default)
-    python        01_intro_reactivity.py --n 20   # pass n as argument → prints sum
-    marimo check  01_intro_reactivity.py          # lint
+    uv run marimo edit   01_intro_reactivity.py          # interactive editor
+    uv run marimo run    01_intro_reactivity.py          # read-only app
+    uv run python        01_intro_reactivity.py          # plain script (n=slider default)
+    uv run python        01_intro_reactivity.py --n 20   # pass n as argument → prints sum
+    uv run marimo check  01_intro_reactivity.py          # lint
     ```
 
     In script mode the slider is ignored — `--n` sets the value and the sum is printed.

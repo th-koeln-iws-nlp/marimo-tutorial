@@ -33,20 +33,11 @@ def _(Path, kagglehub, pd, torch):
     _path = kagglehub.dataset_download(
         "parulpandey/palmer-archipelago-antarctica-penguin-data"
     )
-    _df = (
-        pd.read_csv(Path(_path) / "penguins_size.csv")
-        .dropna()
-        .rename(
-            columns={
-                "culmen_length_mm": "bill_length_mm",
-                "culmen_depth_mm": "bill_depth_mm",
-            }
-        )
-    )
+    _df = pd.read_csv(Path(_path) / "penguins_size.csv").dropna()
 
     _feature_cols = [
-        "bill_length_mm",
-        "bill_depth_mm",
+        "culmen_length_mm",
+        "culmen_depth_mm",
         "flipper_length_mm",
         "body_mass_g",
     ]
