@@ -1,6 +1,6 @@
 # marimo Tutorial
 
-A hands-on, data-science focused introduction to [marimo](https://marimo.io) — ~30–40 minutes.
+A hands-on, data-science focused introduction to [marimo](https://marimo.io).
 
 ## Notebooks
 
