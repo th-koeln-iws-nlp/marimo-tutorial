@@ -1,0 +1,165 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.20.4",
+    "script_metadata_hash": "f50a6f13277b66ff0222bf2af8403282"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "39ef5c28aceec6c51ce43fd7201d08df",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ztfr",
+      "code_hash": "fc5bf5a50fd6b440a35d113f324c5e75",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='ztfr-0' random-id='e0c6f690-55b4-838b-94fd-a82661f54912'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:0,&#92;&quot;species&#92;&quot;:&#92;&quot;Adelie&#92;&quot;,&#92;&quot;island&#92;&quot;:&#92;&quot;Torgersen&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:39.1,&#92;&quot;culmen_depth_mm&#92;&quot;:18.7,&#92;&quot;flipper_length_mm&#92;&quot;:181.0,&#92;&quot;body_mass_g&#92;&quot;:3750.0,&#92;&quot;sex&#92;&quot;:&#92;&quot;MALE&#92;&quot;},{&#92;&quot;&#92;&quot;:1,&#92;&quot;species&#92;&quot;:&#92;&quot;Adelie&#92;&quot;,&#92;&quot;island&#92;&quot;:&#92;&quot;Torgersen&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:39.5,&#92;&quot;culmen_depth_mm&#92;&quot;:17.4,&#92;&quot;flipper_length_mm&#92;&quot;:186.0,&#92;&quot;body_mass_g&#92;&quot;:3800.0,&#92;&quot;sex&#92;&quot;:&#92;&quot;FEMALE&#92;&quot;},{&#92;&quot;&#92;&quot;:2,&#92;&quot;species&#92;&quot;:&#92;&quot;Adelie&#92;&quot;,&#92;&quot;island&#92;&quot;:&#92;&quot;Torgersen&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:40.3,&#92;&quot;culmen_depth_mm&#92;&quot;:18.0,&#92;&quot;flipper_length_mm&#92;&quot;:195.0,&#92;&quot;body_mass_g&#92;&quot;:3250.0,&#92;&quot;sex&#92;&quot;:&#92;&quot;FEMALE&#92;&quot;},{&#92;&quot;&#92;&quot;:4,&#92;&quot;species&#92;&quot;:&#92;&quot;Adelie&#92;&quot;,&#92;&quot;island&#92;&quot;:&#92;&quot;Torgersen&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:36.7,&#92;&quot;culmen_depth_mm&#92;&quot;:19.3,&#92;&quot;flipper_length_mm&#92;&quot;:193.0,&#92;&quot;body_mass_g&#92;&quot;:3450.0,&#92;&quot;sex&#92;&quot;:&#92;&quot;FEMALE&#92;&quot;},{&#92;&quot;&#92;&quot;:5,&#92;&quot;species&#92;&quot;:&#92;&quot;Adelie&#92;&quot;,&#92;&quot;island&#92;&quot;:&#92;&quot;Torgersen&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:39.3,&#92;&quot;culmen_depth_mm&#92;&quot;:20.6,&#92;&quot;flipper_length_mm&#92;&quot;:190.0,&#92;&quot;body_mass_g&#92;&quot;:3650.0,&#92;&quot;sex&#92;&quot;:&#92;&quot;MALE&#92;&quot;},{&#92;&quot;&#92;&quot;:6,&#92;&quot;species&#92;&quot;:&#92;&quot;Adelie&#92;&quot;,&#92;&quot;island&#92;&quot;:&#92;&quot;Torgersen&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:38.9,&#92;&quot;culmen_depth_mm&#92;&quot;:17.8,&#92;&quot;flipper_length_mm&#92;&quot;:181.0,&#92;&quot;body_mass_g&#92;&quot;:3625.0,&#92;&quot;sex&#92;&quot;:&#92;&quot;FEMALE&#92;&quot;},{&#92;&quot;&#92;&quot;:7,&#92;&quot;species&#92;&quot;:&#92;&quot;Adelie&#92;&quot;,&#92;&quot;island&#92;&quot;:&#92;&quot;Torgersen&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:39.2,&#92;&quot;culmen_depth_mm&#92;&quot;:19.6,&#92;&quot;flipper_length_mm&#92;&quot;:195.0,&#92;&quot;body_mass_g&#92;&quot;:4675.0,&#92;&quot;sex&#92;&quot;:&#92;&quot;MALE&#92;&quot;},{&#92;&quot;&#92;&quot;:12,&#92;&quot;species&#92;&quot;:&#92;&quot;Adelie&#92;&quot;,&#92;&quot;island&#92;&quot;:&#92;&quot;Torgersen&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:41.1,&#92;&quot;culmen_depth_mm&#92;&quot;:17.6,&#92;&quot;flipper_length_mm&#92;&quot;:182.0,&#92;&quot;body_mass_g&#92;&quot;:3200.0,&#92;&quot;sex&#92;&quot;:&#92;&quot;FEMALE&#92;&quot;},{&#92;&quot;&#92;&quot;:13,&#92;&quot;species&#92;&quot;:&#92;&quot;Adelie&#92;&quot;,&#92;&quot;island&#92;&quot;:&#92;&quot;Torgersen&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:38.6,&#92;&quot;culmen_depth_mm&#92;&quot;:21.2,&#92;&quot;flipper_length_mm&#92;&quot;:191.0,&#92;&quot;body_mass_g&#92;&quot;:3800.0,&#92;&quot;sex&#92;&quot;:&#92;&quot;MALE&#92;&quot;},{&#92;&quot;&#92;&quot;:14,&#92;&quot;species&#92;&quot;:&#92;&quot;Adelie&#92;&quot;,&#92;&quot;island&#92;&quot;:&#92;&quot;Torgersen&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:34.6,&#92;&quot;culmen_depth_mm&#92;&quot;:21.1,&#92;&quot;flipper_length_mm&#92;&quot;:198.0,&#92;&quot;body_mass_g&#92;&quot;:4400.0,&#92;&quot;sex&#92;&quot;:&#92;&quot;MALE&#92;&quot;}]&quot;' data-total-rows='334' data-total-columns='7' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;species&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;island&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;culmen_length_mm&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;culmen_depth_mm&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;flipper_length_mm&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;body_mass_g&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;sex&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false' data-download-file-name='&quot;df&quot;'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "8dac0db0e7f42b1c57d833060abcff51",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"dataframes-filtering\">DataFrames &amp; Filtering</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "18dd3c82b724a24cf28e380eb9b81239",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"raw-data-sortable-searchable-table\">Raw data \u2014 sortable, searchable table</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "c587b3bf6bd90fb27ebd8b6d91a592e1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='lEQa-0' random-id='52babd05-fb72-7b26-8820-69bc83d73236'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:0,&#92;&quot;_marimo_row_id&#92;&quot;:0,&#92;&quot;species&#92;&quot;:&#92;&quot;Adelie&#92;&quot;,&#92;&quot;island&#92;&quot;:&#92;&quot;Torgersen&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:39.1,&#92;&quot;culmen_depth_mm&#92;&quot;:18.7,&#92;&quot;flipper_length_mm&#92;&quot;:181.0,&#92;&quot;body_mass_g&#92;&quot;:3750.0,&#92;&quot;sex&#92;&quot;:&#92;&quot;MALE&#92;&quot;},{&#92;&quot;&#92;&quot;:1,&#92;&quot;_marimo_row_id&#92;&quot;:1,&#92;&quot;species&#92;&quot;:&#92;&quot;Adelie&#92;&quot;,&#92;&quot;island&#92;&quot;:&#92;&quot;Torgersen&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:39.5,&#92;&quot;culmen_depth_mm&#92;&quot;:17.4,&#92;&quot;flipper_length_mm&#92;&quot;:186.0,&#92;&quot;body_mass_g&#92;&quot;:3800.0,&#92;&quot;sex&#92;&quot;:&#92;&quot;FEMALE&#92;&quot;},{&#92;&quot;&#92;&quot;:2,&#92;&quot;_marimo_row_id&#92;&quot;:2,&#92;&quot;species&#92;&quot;:&#92;&quot;Adelie&#92;&quot;,&#92;&quot;island&#92;&quot;:&#92;&quot;Torgersen&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:40.3,&#92;&quot;culmen_depth_mm&#92;&quot;:18.0,&#92;&quot;flipper_length_mm&#92;&quot;:195.0,&#92;&quot;body_mass_g&#92;&quot;:3250.0,&#92;&quot;sex&#92;&quot;:&#92;&quot;FEMALE&#92;&quot;},{&#92;&quot;&#92;&quot;:4,&#92;&quot;_marimo_row_id&#92;&quot;:3,&#92;&quot;species&#92;&quot;:&#92;&quot;Adelie&#92;&quot;,&#92;&quot;island&#92;&quot;:&#92;&quot;Torgersen&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:36.7,&#92;&quot;culmen_depth_mm&#92;&quot;:19.3,&#92;&quot;flipper_length_mm&#92;&quot;:193.0,&#92;&quot;body_mass_g&#92;&quot;:3450.0,&#92;&quot;sex&#92;&quot;:&#92;&quot;FEMALE&#92;&quot;},{&#92;&quot;&#92;&quot;:5,&#92;&quot;_marimo_row_id&#92;&quot;:4,&#92;&quot;species&#92;&quot;:&#92;&quot;Adelie&#92;&quot;,&#92;&quot;island&#92;&quot;:&#92;&quot;Torgersen&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:39.3,&#92;&quot;culmen_depth_mm&#92;&quot;:20.6,&#92;&quot;flipper_length_mm&#92;&quot;:190.0,&#92;&quot;body_mass_g&#92;&quot;:3650.0,&#92;&quot;sex&#92;&quot;:&#92;&quot;MALE&#92;&quot;},{&#92;&quot;&#92;&quot;:6,&#92;&quot;_marimo_row_id&#92;&quot;:5,&#92;&quot;species&#92;&quot;:&#92;&quot;Adelie&#92;&quot;,&#92;&quot;island&#92;&quot;:&#92;&quot;Torgersen&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:38.9,&#92;&quot;culmen_depth_mm&#92;&quot;:17.8,&#92;&quot;flipper_length_mm&#92;&quot;:181.0,&#92;&quot;body_mass_g&#92;&quot;:3625.0,&#92;&quot;sex&#92;&quot;:&#92;&quot;FEMALE&#92;&quot;},{&#92;&quot;&#92;&quot;:7,&#92;&quot;_marimo_row_id&#92;&quot;:6,&#92;&quot;species&#92;&quot;:&#92;&quot;Adelie&#92;&quot;,&#92;&quot;island&#92;&quot;:&#92;&quot;Torgersen&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:39.2,&#92;&quot;culmen_depth_mm&#92;&quot;:19.6,&#92;&quot;flipper_length_mm&#92;&quot;:195.0,&#92;&quot;body_mass_g&#92;&quot;:4675.0,&#92;&quot;sex&#92;&quot;:&#92;&quot;MALE&#92;&quot;},{&#92;&quot;&#92;&quot;:12,&#92;&quot;_marimo_row_id&#92;&quot;:7,&#92;&quot;species&#92;&quot;:&#92;&quot;Adelie&#92;&quot;,&#92;&quot;island&#92;&quot;:&#92;&quot;Torgersen&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:41.1,&#92;&quot;culmen_depth_mm&#92;&quot;:17.6,&#92;&quot;flipper_length_mm&#92;&quot;:182.0,&#92;&quot;body_mass_g&#92;&quot;:3200.0,&#92;&quot;sex&#92;&quot;:&#92;&quot;FEMALE&#92;&quot;},{&#92;&quot;&#92;&quot;:13,&#92;&quot;_marimo_row_id&#92;&quot;:8,&#92;&quot;species&#92;&quot;:&#92;&quot;Adelie&#92;&quot;,&#92;&quot;island&#92;&quot;:&#92;&quot;Torgersen&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:38.6,&#92;&quot;culmen_depth_mm&#92;&quot;:21.2,&#92;&quot;flipper_length_mm&#92;&quot;:191.0,&#92;&quot;body_mass_g&#92;&quot;:3800.0,&#92;&quot;sex&#92;&quot;:&#92;&quot;MALE&#92;&quot;},{&#92;&quot;&#92;&quot;:14,&#92;&quot;_marimo_row_id&#92;&quot;:9,&#92;&quot;species&#92;&quot;:&#92;&quot;Adelie&#92;&quot;,&#92;&quot;island&#92;&quot;:&#92;&quot;Torgersen&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:34.6,&#92;&quot;culmen_depth_mm&#92;&quot;:21.1,&#92;&quot;flipper_length_mm&#92;&quot;:198.0,&#92;&quot;body_mass_g&#92;&quot;:4400.0,&#92;&quot;sex&#92;&quot;:&#92;&quot;MALE&#92;&quot;}]&quot;' data-total-rows='334' data-total-columns='7' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;species&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;island&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;culmen_length_mm&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;culmen_depth_mm&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;flipper_length_mm&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;body_mass_g&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;sex&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-selection='&quot;multi&quot;' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-has-stable-row-id='true' data-lazy='false' data-preload='false' data-download-file-name='&quot;penguins&quot;'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "43b019c6d112bb99ddd07a494e1ca7a8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"mouidataframe-filter-group-aggregate\"><code>mo.ui.dataframe</code> \u2014 filter, group, aggregate</h2>\n<span class=\"paragraph\">Use the controls below to interactively filter the dataset.\nThe filtered result flows into downstream cells.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "53433292d4f878d04e5723f7fbeaffeb",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='Xref-0' random-id='46b2577b-eb8e-c173-b794-cdacdcde5d52'><marimo-dataframe data-initial-value='{&quot;transforms&quot;:[]}' data-label='null' data-columns='[[&quot;species&quot;,&quot;string&quot;,&quot;str&quot;],[&quot;island&quot;,&quot;string&quot;,&quot;str&quot;],[&quot;culmen_length_mm&quot;,&quot;number&quot;,&quot;float64&quot;],[&quot;culmen_depth_mm&quot;,&quot;number&quot;,&quot;float64&quot;],[&quot;flipper_length_mm&quot;,&quot;number&quot;,&quot;float64&quot;],[&quot;body_mass_g&quot;,&quot;number&quot;,&quot;float64&quot;],[&quot;sex&quot;,&quot;string&quot;,&quot;str&quot;]]' data-dataframe-name='&quot;penguins&quot;' data-total='334' data-page-size='5' data-show-download='true' data-download-json-ensure-ascii='true' data-lazy='false'></marimo-dataframe></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "4c308bae323bfe27be641e0a1c73df16",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>146</strong> rows selected</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "138bdb10aab09c7545ef59e32a412947",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='BYtC-0' random-id='90286d4b-d823-ffd5-1856-9d99f69767ed'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:&#92;&quot;count&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:146.0,&#92;&quot;culmen_depth_mm&#92;&quot;:146.0,&#92;&quot;flipper_length_mm&#92;&quot;:146.0,&#92;&quot;body_mass_g&#92;&quot;:146.0},{&#92;&quot;&#92;&quot;:&#92;&quot;mean&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:38.82397260273973,&#92;&quot;culmen_depth_mm&#92;&quot;:18.3472602739726,&#92;&quot;flipper_length_mm&#92;&quot;:190.1027397260274,&#92;&quot;body_mass_g&#92;&quot;:3706.1643835616437},{&#92;&quot;&#92;&quot;:&#92;&quot;std&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:2.662596730819061,&#92;&quot;culmen_depth_mm&#92;&quot;:1.2193381588318202,&#92;&quot;flipper_length_mm&#92;&quot;:6.521824847286749,&#92;&quot;body_mass_g&#92;&quot;:458.6201347129236},{&#92;&quot;&#92;&quot;:&#92;&quot;min&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:32.1,&#92;&quot;culmen_depth_mm&#92;&quot;:15.5,&#92;&quot;flipper_length_mm&#92;&quot;:172.0,&#92;&quot;body_mass_g&#92;&quot;:2850.0},{&#92;&quot;&#92;&quot;:&#92;&quot;25%&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:36.725,&#92;&quot;culmen_depth_mm&#92;&quot;:17.5,&#92;&quot;flipper_length_mm&#92;&quot;:186.0,&#92;&quot;body_mass_g&#92;&quot;:3362.5},{&#92;&quot;&#92;&quot;:&#92;&quot;50%&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:38.849999999999994,&#92;&quot;culmen_depth_mm&#92;&quot;:18.4,&#92;&quot;flipper_length_mm&#92;&quot;:190.0,&#92;&quot;body_mass_g&#92;&quot;:3700.0},{&#92;&quot;&#92;&quot;:&#92;&quot;75%&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:40.775,&#92;&quot;culmen_depth_mm&#92;&quot;:19.0,&#92;&quot;flipper_length_mm&#92;&quot;:195.0,&#92;&quot;body_mass_g&#92;&quot;:4000.0},{&#92;&quot;&#92;&quot;:&#92;&quot;max&#92;&quot;,&#92;&quot;culmen_length_mm&#92;&quot;:46.0,&#92;&quot;culmen_depth_mm&#92;&quot;:21.5,&#92;&quot;flipper_length_mm&#92;&quot;:210.0,&#92;&quot;body_mass_g&#92;&quot;:4775.0}]&quot;' data-total-rows='8' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;culmen_length_mm&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;culmen_depth_mm&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;flipper_length_mm&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;body_mass_g&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false' data-download-file-name='&quot;df&quot;'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "35c925861996ae9643e0c14303a29e1f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"mouidata_explorer-drag-and-drop-eda\"><code>mo.ui.data_explorer</code> \u2014 drag-and-drop EDA</h2>\n<span class=\"paragraph\">Build charts without writing code.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "bca8fcc31b3292ad8d7964e5f0923579",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='Kclp-0' random-id='530c8678-dfc9-cf93-defa-67af31b1dbf0'><marimo-data-explorer data-initial-value='{&quot;mark&quot;:&quot;?&quot;,&quot;encoding&quot;:{},&quot;config&quot;:{}}' data-label='null' data-data='&quot;./@file/14659-5844679-1gxBz07o.csv&quot;'></marimo-data-explorer></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
