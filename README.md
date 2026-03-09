@@ -2,6 +2,8 @@
 
 A hands-on, data-science focused introduction to [marimo](https://marimo.io).
 
+[Marimo in 100 seconds](https://www.youtube.com/watch?v=3dUagnSKaA8) by the one and only Vincent Warmerdam.
+
 ## Notebooks
 
 | # | File | Topics |
